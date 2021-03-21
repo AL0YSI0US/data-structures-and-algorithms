@@ -50,20 +50,29 @@ CHALLENGE 4
 
 Write a function named `greeting` that takes in a single string and returns the string in all uppercase letters, and followed by an "!".
 
-Then, write a function named `speaker` that takes in an array of strings and a callback function. 
+Then, write a function named `speaker` that takes in an array of strings and a callback function.
 
-Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array. 
+Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array.
 ------------------------------------------------------------------------------------------------ */
 
 const greeting = (word) => {
-
-  arr.forEach(element => {
+  return(`${word.toUpperCase()}!`);
 };
 
 const speaker = (words, callback) => {
-  // Solution code here...
+  const callbackArr = [];
+  words.forEach(element => {
+    callbackArr.push(callback(element));
+  });
+  return callbackArr;
 };
 
+
+describe('Testing challenge 4', () => {
+  test('It should provide an array of strings, that get uppercased, and a "!" at the end', () => {
+    expect(speaker(['hello', '301', 'students'], greeting)).toStrictEqual(['HELLO!', '301!', 'STUDENTS!']);
+  });
+});
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
@@ -87,6 +96,8 @@ const addValues = (arr, value) => {
 const addNumbers = (num, arr, times, callback) => {
   // Solution code here...
 };
+
+
 
 /* ------------------------------------------------------------------------------------------------
 
