@@ -67,16 +67,13 @@ const speaker = (words, callback) => {
   return callbackArr;
 };
 
-
-describe('Testing challenge 4', () => {
-  test('It should provide an array of strings, that get uppercased, and a "!" at the end', () => {
-    expect(speaker(['hello', '301', 'students'], greeting)).toStrictEqual(['HELLO!', '301!', 'STUDENTS!']);
-  });
-});
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
 Write a function named addValues that takes in an array and a value and pushes the value into the array. This function does not need a return statement.
+
+//                   create a function: addValues() that takes in (parameters) of which are an array and a value
+//                   .push the value into the [array]
 
 Then, write a function named addNumbers that takes in four arguments:
   - A number to be added to an array
@@ -89,16 +86,26 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr, value) => {
-  // Solution code here...
+const addValues = (arr, value) =>{
+  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+  console.log(times, num, arr);
+  for(let i = 0; i < times; i++) {
+    callback(arr, num);
+    // console.log(arr);
+  }
+  console.log(arr);
+  return arr;
 };
 
-
-
+// describe('Testing challenge 5', () => {
+//   test('It should add the number 8 to the array five times', () => {
+//     expect(addNumbers(8, [], 5, addValues)).toStrictEqual([8, 8, 8, 8, 8]);
+//     expect(addNumbers(8, [], 5, addValues).length).toStrictEqual(5);
+//   });
+// });
 /* ------------------------------------------------------------------------------------------------
 
 CHALLENGE 6
