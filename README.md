@@ -22,7 +22,7 @@
 + As a user I want a toolkit of skills curated so that I may create across technological mediums...to my heart's content.
 + As a user I want to be able to *"grab the things*" and *"move the things around*" as it pertains to the mysterious artform called CSS.
 
- I happily support others in curating thier respective network, I can be found on Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/) ![](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true)
+![](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true) I happily support others in curating thier respective network, I can be found on Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/) 
 
 #### 🌐 R E S O U R C E S
 
