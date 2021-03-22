@@ -23,8 +23,8 @@
 + As a user I want to be able to *"grab the things*" and *"move the things around*" as it pertains to the mysterious artform called CSS.
 
 ### 🌐 R E S O U R C E S
-
-* **.gitignore**
++ **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
++ **.gitignore**
 
 ### 👥 C O L L A B O R A T O R S
 
@@ -37,9 +37,5 @@
 This work by [AL0YSI0US](https://github.com/AL0YSI0US/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). [![Creative Commons License](https://camo.githubusercontent.com/72af7c8e70a45c471163e803748d0338b3b2b52f6b040804e549e4163de72a58/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f342e302f38387833312e706e67)](http://creativecommons.org/licenses/by/4.0/)
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
-
----
-
-🛠️ **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 
 
 #### I happily support others in curating thier respective network, You can connect with me via Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/) ![](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true) 
