@@ -22,13 +22,15 @@
 + As a user I want a toolkit of skills curated so that I may create across technological mediums...to my heart's content.
 + As a user I want to be able to *"grab the things*" and *"move the things around*" as it pertains to the mysterious artform called CSS.
 
+ I happily support others in curating thier respective network, I can be found on Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/) ![](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true)
+
 #### 🌐 R E S O U R C E S
 
 * **.gitignore**
 
 #### 👥 C O L L A B O R A T O R S
 
-+ TA Bryant helped me comprehend code and logic during Code Challenge 1. After his assistace I had a better plan of attack for writing
++ TA Bryant helped me comprehend code and logic during Code Challenge 1. After his assistace I had a better plan of attack for the whiteboard process of approaching each question.
 
 #### 🤔 R E F L E C T I O N S
 
@@ -40,6 +42,4 @@ This license lets others distribute, remix, adapt, and build upon your work, eve
 
 ---
 
-🛠️ **Code challenge** [setup instructions
-
-](https://codefellows.github.io/setup-guide/code-301/3-code-challenges)
+🛠️ **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges)
