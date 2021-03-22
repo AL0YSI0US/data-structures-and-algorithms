@@ -137,7 +137,7 @@ Iterate over the array using forEach to determine the output based on several ru
 Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 function fizzbuzz(arr) {
-  // Solution code here...
+  console.log(arr);
 }
 
 
