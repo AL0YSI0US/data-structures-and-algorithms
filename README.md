@@ -42,4 +42,4 @@ This license lets others distribute, remix, adapt, and build upon your work, eve
 
 🛠️ **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 
 
-![](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true) I happily support others in curating thier respective network, You can connect with me via Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/) 
+I happily support others in curating thier respective network, You can connect with me via Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/) ![](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true) 
