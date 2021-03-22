@@ -11,7 +11,7 @@ Push the new value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
 const addOne = (arr) => {
   const answer = [];
-  arr.forEach(element => {answer.push(element +1);
+  arr.forEach(inputs => {answer.push(inputs +1);
   });
   return answer;
 };
@@ -26,7 +26,7 @@ and add the updated value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
 const addExclamation = (arr) => {
   const addExcitement = [];
-  arr.forEach(element => {addExcitement.push(`${element}!`);
+  arr.forEach(inputs => {addExcitement.push(`${inputs}!`);
   });
   return addExcitement;
 };
@@ -41,8 +41,7 @@ The modified strings should each be added into a local array. Return that local 
 ------------------------------------------------------------------------------------------------ */
 const allUpperCase = (arr) => {
   const upperCaseArr = [];
-
-  arr.forEach( element => {upperCaseArr.push(element.toUpperCase());
+  arr.forEach( inputs => {upperCaseArr.push(inputs.toUpperCase());
   });
   return upperCaseArr;
 };
@@ -60,10 +59,9 @@ Return the new array.
 const greeting = (word) => {
   return(`${word.toUpperCase()}!`);
 };
-
 const speaker = (words, callback) => {
   const callbackArr = [];
-  words.forEach(element => {callbackArr.push(callback(element));
+  words.forEach(inputs => {callbackArr.push(callback(inputs));
   });
   return callbackArr;
 };
@@ -87,11 +85,10 @@ Return the modified array.
 const addValues = (arr, value) =>{
   arr.push(value);
 };
-
-const addNumbers = (num, arr, times, callback) => {
-  // console.log(times, num, arr);
+const addNumbers = (inputs, arr, times, callback) => {
+  // console.log(times, inputs, arr);
   for(let i = 0; i < times; i++) {
-    callback(arr, num);
+    callback(arr, inputs);
     // console.log(arr);
   }
   // console.log(arr);
@@ -114,14 +111,13 @@ This function should use forEach to populate your grocery list based on
 the store's inventory. If the item is available, add it to your list. Return the final list.
 ------------------------------------------------------------------------------------------------ */
 const createList = (availableItems) => {
-  const groceryList = [];
-  // console.log(availableItems);
-  availableItems.forEach( element => {
-    if(element.available === true){
-      groceryList.push(element.name);
+  const aloysiousGroceryList = [];
+  availableItems.forEach( inputs => {
+    if(inputs.available === true){
+      aloysiousGroceryList.push(inputs.name);
     }
   });
-  return groceryList;
+  return aloysiousGroceryList;
 };
 /* ------------------------------------------------------------------------------------------------
 STRETCH - CHALLENGE 7
@@ -136,19 +132,41 @@ Iterate over the array using forEach to determine the output based on several ru
 
 Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
-function fizzbuzz(arr) {
-  // Solution code here...
-}
+const fizzbuzz = (arr) => {
+  const magikMathFilter = [];
+  arr.forEach(inputs => {
+    if (inputs % 3 === 0 && inputs % 5 === 0) {
+      magikMathFilter.push(`Fizz Buzz`);
+    } else if (inputs % 3 === 0) {
+      magikMathFilter.push(`Fizz`);
+    } else if (inputs % 5 === 0) {
+      magikMathFilter.push(`Buzz`);
+    } else {
+      magikMathFilter.push(inputs);
+    }
+  });
+  // console.log(arr, magikMathFilter);
+  // O H m y G O S H : t h e M O S T e x c i t i n g C O N S O L E L O G t o D A T E ! ! !
+  // tHaNk yOu Bryant for talking me through placement and inputs. I can finally see what's
+  // happening inside the mysterious and ever ellusive JavaScript beast.
+  return magikMathFilter;
+};
+/* ------------------------------------------------------------------------------------------------
+//                          STRETCH - CHALLENGE 7 - TESTING
 
+  - pulled up the test code sans the "x" so I could see if it was passing
+  - you know....cuz it says dont fiddle with the tests and what have you.
+  - pleased as a pickle to connect the dots on how pull and disable a test bwah ha ha
+  - im NOT touching IT...im NOT touching IT...im NOT touching IT...im NOT touching IT.............
+------------------------------------------------------------------------------------------------ */
+describe('Testing challenge 7', () => {
+  const inputs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 
-// describe('Testing challenge 6', () => {
-//   const inventory = [{ name: 'apples', available: true }, { name: 'pears', available: true }, { name: 'oranges', available: false }, { name: 'bananas', available: true }, { name: 'blueberries', available: false }];
-
-//   test('It should only add the available items to the list', () => {
-//     expect(createList(inventory)).toStrictEqual(['apples', 'pears', 'bananas']);
-//     expect(createList(inventory).length).toStrictEqual(3);
-//   });
-// });
+  test('It should print out messages or numbers', () => {
+    expect(fizzbuzz(inputs)).toStrictEqual([1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'Fizz Buzz', 16]);
+    expect(fizzbuzz(inputs).length).toStrictEqual(16);
+  });
+});
 /* ------------------------------------------------------------------------------------------------
 TESTS
 
