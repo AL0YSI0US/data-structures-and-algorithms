@@ -1,8 +1,8 @@
-# Data Structures and Algorithms
+# Data Structures and Algorithms 
 
 ![](https://github.com/AL0YSI0US/portfolio-prep/blob/main/assets/banner_1400x422.png?raw=true)
 
-![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms)
+![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAL0YSI0US%2Fdata-structures-and-algorithms&count_bg=%23FF0090&title_bg=%23555555&icon=counter-strike.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 > **Hello wanderer**,
 >
