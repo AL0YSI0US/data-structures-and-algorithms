@@ -47,6 +47,8 @@ This work by [AL0YSI0US](https://github.com/AL0YSI0US/) is licensed under a [Cre
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
-![](https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true)
+<p align="center">
+<img src="https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true" height="auto" width="auto">
+</p>
 
 #### I happily support others in the curation of thier respective networks, you can connect with me via Linkedin by clicking [here](https://www.linkedin.com/in/a-todd-charliemike/).
