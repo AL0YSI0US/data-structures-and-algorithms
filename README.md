@@ -2,7 +2,7 @@
 
 ![](https://github.com/AL0YSI0US/portfolio-prep/blob/main/assets/banner_1400x422.png?raw=true)
 
-![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAL0YSI0US%2Fdata-structures-and-algorithms&count_bg=%23FF0090&title_bg=%23555555&icon=counter-strike.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms) 
 
 > **Hello there wanderer**,
 >
@@ -82,3 +82,5 @@
 This work by [AL0YSI0US](https://github.com/AL0YSI0US/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). [![Creative Commons License](https://camo.githubusercontent.com/72af7c8e70a45c471163e803748d0338b3b2b52f6b040804e549e4163de72a58/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f342e302f38387833312e706e67)](http://creativecommons.org/licenses/by/4.0/)
 
 This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAL0YSI0US%2Fdata-structures-and-algorithms&count_bg=%23FF0090&title_bg=%23555555&icon=counter-strike.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
