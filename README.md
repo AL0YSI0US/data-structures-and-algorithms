@@ -30,21 +30,21 @@
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-02.test.js">Challenge[Two]</a>
 <br>
-<a href="">Challenge[Three]</a>
+<a href="404">Challenge[Three]</a>
 <br>
-<a href="">Challenge[Four]</a>
+<a href="404">Challenge[Four]</a>
 <br>
-<a href="">Challenge[Five]</a>
+<a href="404">Challenge[Five]</a>
 <br>
-<a href="">Challenge[Six]</a>
+<a href="404">Challenge[Six]</a>
 <br>
-<a href="">Challenge[Seven]</a>
+<a href="404">Challenge[Seven]</a>
 <br>
-<a href="">Challenge[Eight]</a>
+<a href="404">Challenge[Eight]</a>
 <br>
-<a href="">Challenge[Nine]</a>
+<a href="404">Challenge[Nine]</a>
 <br>
-<a href="">Challenge[Ten]</a>
+<a href="404">Challenge[Ten]</a>
 <br>
 </div>
 
