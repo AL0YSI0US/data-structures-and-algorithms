@@ -63,8 +63,17 @@ function from challenge 4, but uses forEach instead of a for loop.
 ------------------------------------------------------------------------------------------------ */
 
 const forEachTwoToThe = (arr) => {
-  // Solution code here...
+  const thePowerOfTwo = [];
+  arr.forEach(value => {
+    thePowerOfTwo.push(Math.pow(2, value));
+  });
+  return thePowerOfTwo;
 };
+
+// --------CAN I MODIFY THIS ATTEMT TO MAKE THE CODE AND ACTUALLY GET IT TO WORK???-------x
+// const forEachTwoToThe = (arr) => {
+//   return arr.map(arr.forEach(Math.pow(2 , value)));
+// };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
