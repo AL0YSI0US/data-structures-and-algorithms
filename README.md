@@ -25,25 +25,25 @@
 <h2 align="center">C o d e 👾  C h a l l e n g e s</h2>
 </p>
 <div align="center">
-<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-01.test.js" target="_blank">Challenge[One]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-01.test.js">Challenge[One]</a>
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-02.test.js">Challenge[Two]</a>
 <br>
-<a href="404">Challenge[Three]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-03.test.js">Challenge[Three]</a>
 <br>
-<a href="404">Challenge[Four]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-04.test.js">Challenge[Four]</a>
 <br>
-<a href="404">Challenge[Five]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-05.test.js">Challenge[Five]</a>
 <br>
-<a href="404">Challenge[Six]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-06.test.js">Challenge[Six]</a>
 <br>
-<a href="404">Challenge[Seven]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-07.test.js">Challenge[Seven]</a>
 <br>
-<a href="404">Challenge[Eight]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-08.test.js">Challenge[Eight]</a>
 <br>
-<a href="404">Challenge[Nine]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-09.test.js">Challenge[Nine]</a>
 <br>
-<a href="404">Challenge[Ten]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-10.test.js">Challenge[Ten]</a>
 <br>
 </div>
 
