@@ -49,8 +49,7 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 ------------------------------------------------------------------------------------------------ */
 
 const forLoopTwoToThe = (arr) => {
-  for(const value of arr){
-    return arr.map(value => Math.pow(2, value));
+  for(const value of arr){return arr.map(value => Math.pow(2, value));
   }
 };
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
@@ -64,16 +63,18 @@ function from challenge 4, but uses forEach instead of a for loop.
 
 const forEachTwoToThe = (arr) => {
   const thePowerOfTwo = [];
-  arr.forEach(value => {
-    thePowerOfTwo.push(Math.pow(2, value));
+  arr.forEach(value => {thePowerOfTwo.push(Math.pow(2, value));
   });
   return thePowerOfTwo;
 };
 
 // --------CAN I MODIFY THIS ATTEMT TO MAKE THE CODE AND ACTUALLY GET IT TO WORK???-------x
+
 // const forEachTwoToThe = (arr) => {
 //   return arr.map(arr.forEach(Math.pow(2 , value)));
 // };
+
+// --------CAN I MODIFY THIS ATTEMT TO MAKE THE CODE AND ACTUALLY GET IT TO WORK???-------x
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -82,11 +83,24 @@ Write a function named mapTwoToThe that produces the same output as your forLoop
 from challenge 4 and your forEachTwoToThe function from challenge 5, but uses map instead of a
 for loop or forEach.
 ------------------------------------------------------------------------------------------------ */
-
-const mapTwoToThe = (arr) => {
-  // Solution code here...
+// return an array using 'map' method
+// HEY mapTwoToThe: GIVE ME THIS!!!! possible one liner?
+const mapTwoToThe = (arr) => {return arr.map(value => Math.pow(2, value));
 };
+// Did I really learn to do something this cool? Kassie Rocks!!!!
+// OMG update I just scrolled up and made the rest of my code even sleeker and it still passes!!!
 
+/* ------------------------------------------------------------------------------------------------
+describe('Testing challenge 6', () => {
+  test('It should return two raised to the power of the integer', () => {
+    expect(mapTwoToThe([0, 4, 5])).toStrictEqual([1, 16, 32]);
+    expect(mapTwoToThe([0, 4, 5]).length).toStrictEqual(3);
+  });
+
+  test('It should return decimals if the integer is negative', () => {
+    expect(mapTwoToThe([-1, -2, -3])).toStrictEqual([0.5, 0.25, 0.125]);
+  });
+});
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
