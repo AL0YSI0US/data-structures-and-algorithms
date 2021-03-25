@@ -26,7 +26,7 @@
 </p>
 <div align="center">
 <p>(Chosen challenge opens in a new window)</p>
-<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-01.test.js">Challenge[One]</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-01.test.js" target="_blank">Challenge[One]</a>
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-02.test.js">Challenge[Two]</a>
 <br>
