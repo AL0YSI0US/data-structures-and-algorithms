@@ -4,11 +4,11 @@
 
 ![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAL0YSI0US%2Fdata-structures-and-algorithms&count_bg=%23FF0090&title_bg=%23555555&icon=counter-strike.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-> **Hello wanderer**,
+> **Hello there wanderer**,
 >
 > Welcome to my Data Stuctures and Algorithms repository.
 >
-> As you read this I'm currently attending Code Fellows.
+> As you read this I'm currently attending [Code Fellows](https://www.codefellows.org/).
 >
 > I'm centering hard on learning JavaScript and Python best practices.
 
@@ -22,6 +22,32 @@
 + As a user I want a toolkit of skills curated so that I may create across technological mediums...to my heart's content.
 + As a user I want to be able to *"grab the things*" and *"move the things around*" as it pertains to the mysterious artform called CSS.
 
+<h2 align="center">C o d e 👾  C h a l l e n g e s</h2>
+</p>
+<div align="center">
+<p>(Chosen challenge opens in a new window)</p>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-01.test.js">Challenge[One]</a>
+<br>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-02.test.js">Challenge[Two]</a>
+<br>
+<a href="">Challenge[Three]</a>
+<br>
+<a href="">Challenge[Four]</a>
+<br>
+<a href="">Challenge[Five]</a>
+<br>
+<a href="">Challenge[Six]</a>
+<br>
+<a href="">Challenge[Seven]</a>
+<br>
+<a href="">Challenge[Eight]</a>
+<br>
+<a href="">Challenge[Nine]</a>
+<br>
+<a href="">Challenge[Ten]</a>
+<br>
+</div>
+
 ### 🌐 R E S O U R C E S
 
 + **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
@@ -30,7 +56,7 @@
 + `for...of` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 + `Math.pow(` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
-👥 C O L L A B O R A T O R S
+### 👥 C O L L A B O R A T O R S
 
 + TA Bryant helped me comprehend code and logic during Code Challenge 1. After his assistace I had a better plan of attack for the whiteboard process of approaching each question.
 + Garfield gave me a run down of how he was able to make sense of his logic which was helpful for filling in some gaps so I could attempt the stretch goal on Code Challenge 1. I knew `===` was needed somewhere, and remebered using `%` (modulus) before but based on many resources I could not figure out how to apply these bits to my code base. {I also pulled the test code out so I could experience all the delight of green checks everywhere in my terminal on my final tests}
