@@ -23,7 +23,7 @@
 + As a user I want to be able to *"grab the things*" and *"move the things around*" as it pertains to the mysterious artform called CSS.
 
 <h2 align="center">C o d e 👾  C h a l l e n g e s</h2>
-</p>
+
 <div align="center">
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-01.test.js">Challenge[One]</a>
 <br>
@@ -46,6 +46,8 @@
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-10.test.js">Challenge[Ten]</a> unassigned
 <br>
 </div>
+
+----
 
 ### 🌐 R E S O U R C E S
 
