@@ -50,7 +50,7 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 const forLoopTwoToThe = (arr) => {
   for (const value of arr) 
   arr.map(value => Math.pow(2, value));
-  };
+};
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
 

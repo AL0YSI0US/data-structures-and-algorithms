@@ -2,7 +2,7 @@
 
 ![](https://github.com/AL0YSI0US/portfolio-prep/blob/main/assets/banner_1400x422.png?raw=true)
 
-![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms) 
+![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms)
 
 > **Hello there wanderer**,
 >
@@ -47,7 +47,7 @@
 <br>
 </div>
 
-----
+---
 
 ### 🌐 R E S O U R C E S
 
@@ -56,6 +56,7 @@
 + [Fixing code challenges](https://github.com/codefellows/seattle-code-301n21/blob/main/class-02/fix-challenges.md)
 + `for...of` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 + `Math.pow(` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
++ `Number.isInteger` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
 
 ### 👥 C O L L A B O R A T O R S
 
