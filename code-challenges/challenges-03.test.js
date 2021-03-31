@@ -106,9 +106,14 @@ const snorlaxData = {
   weight: 4600,
 };
 
-const getBaseStatGreaterThan = (arr, minBaseStat) => {
-  // Solution code here...
+const getBaseStatGreaterThan = (arr, minBaseStat) => {return arr.filter(snorlaxData.stats.baseStat <= 50);
 };
+// return value <= 50
+
+// for(let i = 0; i < arr.length; i++){
+//   const res = [];
+//   if(arr[i] < num){
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
@@ -168,7 +173,7 @@ const characters = [
   },
 ];
 
-const getCharactersWithoutChildren = (arr) => {
+const getCharactersWithoutChildren = (arr) => {return arr.filter(characters()); // how to access/avoid chilren arr?
   // Solution code here...
 };
 
@@ -278,7 +283,7 @@ xdescribe('Testing challenge 7', () => {
   });
 });
 
-xdescribe('Testing challenge 8', () => {
+describe('Testing challenge 8', () => {
   test('It should return an array containing characters who do not have children', () => {
     expect(getCharactersWithoutChildren(characters)).toStrictEqual([ { name: 'Sansa', spouse: 'Tyrion', house: 'Stark' }, { name: 'Jon', spouse: null, house: 'Snow' } ]);
     expect(getCharactersWithoutChildren(characters).length).toStrictEqual(2);
