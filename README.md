@@ -31,7 +31,7 @@
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-03.test.js">Challenge[Three]</a>
 <br>
-<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-04.test.js">Challenge[Four]</a>  due 1 apr
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-04.test.js">Challenge[Four]</a> 
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-05.test.js">Challenge[Five]</a> due 5 apr
 <br>
