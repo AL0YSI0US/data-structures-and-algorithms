@@ -43,7 +43,6 @@ For example, containsAnd(['panda', 'ran', 'and']) returns ['panda', 'and'].
 // creates an array the same length or shorter but only wuith the selected items in it.
 
 const containsAnd = (arr) => {return arr.filter(wordsAnd => wordsAnd.includes ('and'));
-// Solution code here...
 };
 
 /* -----------------------------------------------------------------------------------------------
@@ -64,9 +63,8 @@ uses filter to return an array of all the elements in the second array that
 are not included in the first array.
 
 For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
-  ------------------------------------------------------------------------------------------------ */
-const notInFirstArray = (forbiddenValues, arr) => {
-  return arr.filter(value => !forbiddenValues.includes(value));
+------------------------------------------------------------------------------------------------ */
+const notInFirstArray = (forbiddenValues, arr) => {return arr.filter(value => !forbiddenValues.includes(value));
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 - Stretch Goal
@@ -106,13 +104,9 @@ const snorlaxData = {
   weight: 4600,
 };
 
-const getBaseStatGreaterThan = (arr, minBaseStat) => {return arr.filter(snorlaxData.stats.baseStat <= 50);
-};
-// return value <= 50
+const getBaseStatGreaterThan = (arr, minBaseStat) => arr.filter(stat => stat.baseStat > stat.minBaseStat);
 
-// for(let i = 0; i < arr.length; i++){
-//   const res = [];
-//   if(arr[i] < num){
+
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -251,7 +245,7 @@ describe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should return an array containing the stats that are greater than the input', () => {
     expect(getBaseStatGreaterThan(snorlaxData.stats, 75)).toStrictEqual([ { stat: { url: 'https://pokeapi.co/api/v2/stat/5/', name: 'special-defense' }, effort: 2, baseStat: 110 } ]);
     expect(getBaseStatGreaterThan(snorlaxData.stats, 75).length).toStrictEqual(1);
