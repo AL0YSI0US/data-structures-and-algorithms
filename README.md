@@ -54,9 +54,10 @@
 + **Code challenge** [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges) 🛠️
 + **.gitignore**
 + [Fixing code challenges](https://github.com/codefellows/seattle-code-301n21/blob/main/class-02/fix-challenges.md)
-+ `for...of` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
-+ `Math.pow(` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
-+ `Number.isInteger` [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
++ { `for...of` } - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
++ { `Math.pow(` } - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
++ { `Number.isInteger` } - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
++ { `Sort()` } - [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)`
 
 ### 👥 C O L L A B O R A T O R S
 
