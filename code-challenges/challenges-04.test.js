@@ -26,19 +26,19 @@ function lower(str) {
 const updateAnimal = (arr, callback) => arr.map(str => callback(str));
 
 // { S E C O N D . S O L V E }
-// const updateAnimal = (arr, callback) => {
-//   return arr.map(str => callback(str));
-// };
+const updateAnimal = (arr, callback) => {
+  return arr.map(str => callback(str));
+};
 
-// { T H I R D . S O L V E }
-// const updateAnimal = (arr, callback) => {
-//   const newArray = [];
-//   for (let i = 0; i < arr.length; i++) {
-//     const element = arr[i];
-//     newArray.push(callback(element));
-//   }
-//   return newArray;
-// };
+// { T H I R D . S O L V E } - { Michael }
+const updateAnimal = (arr, callback) => {
+  const newArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    newArray.push(callback(element));
+  }
+  return newArray;
+};
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -52,9 +52,9 @@ For example: 'Cat' would come before 'apple'
 const sortNames = arr => arr.sort();
 
 // { S E C O N D . S O L V E }
-// const sortNames = arr => {
-//   return arr.sort();
-// };
+const sortNames = arr => {
+  return arr.sort();
+};
 
 // x---------------------------------[<[ - README - ]>]--------------------------------------------------x
 
@@ -71,9 +71,9 @@ HINT: Beware... JS default is "Lexical" ordering.
 const sortNumbers = arr => arr.sort((a, b) => a - b);
 
 // { S E C O N D . S O L V E }
-// const sortNumbers = (arr) => {
-//   return arr.sort((a, b) => a - b);
-// };
+const sortNumbers = (arr) => {
+  return arr.sort((a, b) => a - b);
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -86,10 +86,9 @@ HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 const sortBackwards = arr => arr.sort((a, b) => b - a);
 
 // { S E C O N D . S O L V E }
-// const sortBackwords = arr => {
-//   return arr.sort((a, b) => b - a);
-// };
-
+const sortBackwords = arr => {
+  return arr.sort((a, b) => b - a);
+};
 
 // x---------------------------------[<[ - README - ]>]--------------------------------------------------x
 
@@ -108,9 +107,9 @@ For example, ['Alphabet', 'Zebra', 'alphabet', 'carrot'] is correctly sorted.
 const alphabetize = arr => arr.sort();
 
 // { S E C O N D . S O L V E }
-// const alphabetize = (arr) => {
-//   return arr.sort();
-// };
+const alphabetize = (arr) => {
+  return arr.sort();
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -128,9 +127,9 @@ Here is an example of the input:
 const sortByPrice = arr => arr.sort((a, b) => a.price - b.price);
 
 // { S E C O N D . S O L V E }
-// const sortByPrice = (arr) => {
-//   return arr.sort((a, b) => a.price - b.price);
-// };
+const sortByPrice = (arr) => {
+  return arr.sort((a, b) => a.price - b.price);
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
@@ -145,9 +144,9 @@ const alphabetizeBetter = arr => arr.sort((a, b) => (a.toUpperCase() > b.toUpper
 // saw ryan use a "?" and it blew my mind...what is it though?
 
 // { S E C O N D . S O L V E }
-// const alphabetizeBetter = arr => {
-//   return arr.sort((a, b) => (a.toUpperCase() > b.toUpperCase() ? 1 : -1));
-// };
+const alphabetizeBetter = arr => {
+  return arr.sort((a, b) => (a.toUpperCase() > b.toUpperCase() ? 1 : -1));
+};
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8 - Stretch Goal
 
@@ -157,7 +156,6 @@ Write a function named sortByLength that takes in an array of strings and return
 const sortByLength = (arr) => {
   // Solution code here...
 };
-
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 9 - Stretch Goal
