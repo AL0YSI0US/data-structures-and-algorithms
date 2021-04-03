@@ -45,6 +45,12 @@
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-10.test.js">Challenge[Ten]</a> due 22 apr
 <br>
+<br>
+📚
+<br>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/arrayIndex.md">Array Index</a>
+<br>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/variables.">Variables: Value vs. Reference</a>
 </div>
 
 ---
