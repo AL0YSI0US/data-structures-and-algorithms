@@ -23,23 +23,35 @@ function lower(str) {
   return str.toLowerCase();
 }
 
-const updateAnimal = (arr, callback) => arr.map(str => callback(str));
+// const updateAnimal = (arr, callback) => arr.map(str => callback(str));
 
-// { S E C O N D . S O L V E }
+// // { S E C O N D . S O L V E }
+// const updateAnimal = (arr, callback) => {
+//   return arr.map(str => callback(str));
+// };
+
+// // { T H I R D . S O L V E } - { Michael }
+// const updateAnimal = (arr, callback) => {
+//   const newArray = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     newArray.push(callback(element));
+//   }
+//   return newArray;
+// };
+
+// { F O U R T H . S O L V E } - { Instructor Michelle }
 const updateAnimal = (arr, callback) => {
-  return arr.map(str => callback(str));
+  const result [];
+  arr.forEach(animal => {
+    let updatedAniumal = callback(animal);
+    result.push(updatedAnimal);
+  })
+   return result; 
 };
 
-// { T H I R D . S O L V E } - { Michael }
-const updateAnimal = (arr, callback) => {
-  const newArray = [];
-  for (let i = 0; i < arr.length; i++) {
-    const element = arr[i];
-    newArray.push(callback(element));
-  }
-  return newArray;
-};
-
+// // { F I T H . S O L V E } - { Instructor Michelle }
+const updateAnimal = (arr, callback) => arr.map(callback);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -90,6 +102,17 @@ const sortBackwords = arr => {
   return arr.sort((a, b) => b - a);
 };
 
+// { T H I R D. S O L V E } - { Instructor Michelle }
+const sortBackwords = arr => {
+  if (a > b) {
+    return -1;
+  }else if (b > a) {
+    return 1;
+  }else {
+    return 0;
+  }
+});
+};
 // x---------------------------------[<[ - README - ]>]--------------------------------------------------x
 
 // { `.reverse()` } - [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
