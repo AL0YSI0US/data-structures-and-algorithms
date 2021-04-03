@@ -61,9 +61,10 @@
 
 ### 👥 C O L L A B O R A T O R S
 
-+ TA Bryant helped me comprehend code and logic during Code Challenge 1. After his assistace I had a better plan of attack for the whiteboard process of approaching each question.
-+ Garfield gave me a run down of how he was able to make sense of his logic which was helpful for filling in some gaps so I could attempt the stretch goal on Code Challenge 1. I knew `===` was needed somewhere, and remebered using `%` (modulus) before but based on many resources I could not figure out how to apply these bits to my code base. {I also pulled the test code out so I could experience all the delight of green checks everywhere in my terminal on my final tests}
-+ Kassie Bradshaw helped me keck off lab two by helping me understand how to write a one-liner! `Math.pow` didn't make a lick of sense until she broke it down for me!
++ { `TA Bryant` } - helped me comprehend code and logic during Code Challenge 1. After his assistace I had a better plan of attack for the whiteboard process of approaching each question.
++ { `Garfield` } - gave me a run down of how he was able to make sense of his logic which was helpful for filling in some gaps so I could attempt the stretch goal on Code Challenge 1. I knew `===`was needed somewhere, and remebered using`%` (modulus) before but based on many resources I could not figure out how to apply these bits to my code base. {I also pulled the test code out so I could experience all the delight of green checks everywhere in my terminal on my final tests}
++ { `Kassie Bradshaw` } - helped me keck off lab two by helping me understand how to write a one-liner! `Math.pow` didn't make a lick of sense until she broke it down for me!
++ { `Michael` } - Code challenge 4 problem One. Some real manual labor happening in that code block.
 
 ### 🤔 R E F L E C T I O N S
 
@@ -71,9 +72,9 @@
 
 ### ❤️ G R A T T I T U D E
 
-+ Props to Daniel for his patience and dilligent articulations of the JavaScript he comprehends! It's a pleasure to listen to him explain things.
-+ Props to Ta Bryant for helping me get one step closer to nailing down how to confidently use `console.log()` statements to test the codebases I'm working with. I have been waiting for this light bulb to flicker on for a hot minute! I'm catching flickers of light from over here in the dark non-traditional coding abyss-Thank you!!!
-+ Props to Kassie for her solid explanations of "*what it is were trying to do*" in brilliant JavaScript for dummies language. Her ability to translate from tech to non tech talk really allows me to connect the dots!
++ Props to { `Daniel` } for his patience and dilligent articulations of the JavaScript he comprehends! It's a pleasure to listen to him explain things.
++ Props to { `Ta Bryant` } for helping me get one step closer to nailing down how to confidently use `console.log()` statements to test the codebases I'm working with. I have been waiting for this light bulb to flicker on for a hot minute! I'm catching flickers of light from over here in the dark non-traditional coding abyss-Thank you!!!
++ Props to { `Kassie` } for her solid explanations of "*what it is were trying to do*" in brilliant JavaScript for dummies language. Her ability to translate from tech to non tech talk really allows me to connect the dots!
 
 <p align="center">
 <img src="https://github.com/AL0YSI0US/AL0YSI0US/blob/main/img/linkedin.png?raw=true" height="auto" width="auto">
