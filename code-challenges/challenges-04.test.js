@@ -23,22 +23,22 @@ function lower(str) {
   return str.toLowerCase();
 }
 
-// const updateAnimal = (arr, callback) => arr.map(str => callback(str));
+const updateAnimal = (arr, callback) => arr.map(str => callback(str));
 
 // // { S E C O N D . S O L V E }
-// const updateAnimal = (arr, callback) => {
-//   return arr.map(str => callback(str));
-// };
+const updateAnimal = (arr, callback) => {
+  return arr.map(str => callback(str));
+};
 
 // // { T H I R D . S O L V E } - { Michael }
-// const updateAnimal = (arr, callback) => {
-//   const newArray = [];
-//   for (let i = 0; i < arr.length; i++) {
-//     const element = arr[i];
-//     newArray.push(callback(element));
-//   }
-//   return newArray;
-// };
+const updateAnimal = (arr, callback) => {
+  const newArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    newArray.push(callback(element));
+  }
+  return newArray;
+};
 
 // { F O U R T H . S O L V E } - { Instructor Michelle }
 const updateAnimal = (arr, callback) => {
