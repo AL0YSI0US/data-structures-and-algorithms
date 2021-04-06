@@ -14,9 +14,14 @@ should convert to ["Jane Doe", "James Bond"]
 Note the space in between first and last names.
 You can assume that neither firstName nor lastName will be blank
 ------------------------------------------------------------------------------------------------ */
-const toLastNames = people => {
-  // Solution code here...
-};
+const toLastNames = people => people.map (x => x.firstName + ' ' + x.lastName);
+
+
+//----------------------------------------
+// collaborated with { Daniel + Kassie } +
+//----------------------------------------
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -27,9 +32,20 @@ Write a function named addValues that, given an array of numbers as input, uses 
 
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr) => {
-  // Solution code here...
-};
+const addValues = (arr) => arr.reduce((answerSoFar, currentValue) => answerSoFar + currentValue, 0);
+
+
+//----------------------------------------
+// collaborated with { Daniel + Kassie } +
+//----------------------------------------
+
+
+//  { A N O T H E R . V A R I A T I O N }
+
+// const addValues = (arr) => {
+//   return arr.reduce((answerSoFar, currentValue) => answerSoFar + currentValue, 0);
+// };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
