@@ -2,7 +2,7 @@
 
 ![](https://github.com/AL0YSI0US/portfolio-prep/blob/main/assets/banner_1400x422.png?raw=true)
 
-![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms)
+![cs](https://img.shields.io/github/license/AL0YSI0US/data-structures-and-algorithms) ![open-pr](https://img.shields.io/github/issues-pr-raw/AL0YSI0US/data-structures-and-algorithms) ![closed-pr](https://img.shields.io/github/issues-pr-closed/AL0YSI0US/data-structures-and-algorithms) [![wakatime](https://wakatime.com/badge/github/AL0YSI0US/data-structures-and-algorithms.svg)](https://wakatime.com/badge/github/AL0YSI0US/data-structures-and-algorithms)
 
 > **Hello there wanderer**,
 >
