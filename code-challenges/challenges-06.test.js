@@ -7,13 +7,13 @@ CHALLENGE 1 - Review
 
 Write a function named getNames that, given an array of people objects, uses map to return an array of names reversed.
 
-For example: 
+For example:
 [
 {
   name: 'lloyd',
   age: 32,
   shoeSize: 12
-}, 
+},
 {
   name: 'jamie',
   age: 21,
@@ -25,8 +25,10 @@ Returns: ['dyoll', 'eimaj'];
 ------------------------------------------------------------------------------------------------ */
 
 const getNames = (arr) => {
-  // Solution code here...
+  return arr.map((people) => people.name.split('').reverse('').join(''));
 };
+
+// collaborated with Thomas, daniel shelby
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -36,7 +38,7 @@ Write a function that appends ' The end.' to a string, and returns the modified 
 ------------------------------------------------------------------------------------------------ */
 
 const appendTheEnd = (str) => {
-  // Solution code here...
+  return str + ` The end.`;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -53,8 +55,13 @@ console.log(a) prints [1, 2, 3, 1]
 ------------------------------------------------------------------------------------------------ */
 
 const appendFirstToLast = (arr) => {
-  // Solution code here...
+  let firstElement = arr[0];
+  let endArr = arr.length;
+  arr[endArr] = firstElement;
+  console.log(arr);
 };
+
+// TA Michael E. collaborated with Thomas, daniel shelby
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -72,8 +79,26 @@ console.log(a) prints { fullName: 'Octavia Estelle Butler', yearBorn: 1947 }
 ------------------------------------------------------------------------------------------------ */
 
 const addBirthYearProperty = (obj, year) => {
-  // Solution code here...
+  obj.yearBorn = year;
 };
+
+// In Collaboration with Lorenzo
+
+
+// EXTRA READING
+
+// The various things an object contains—its variables and its methods—are called the members of that object.
+// The members of an object are accessed using dot notation, which looks like this:
+
+// objectReference.memberName
+// Usually the objectReference is contained in a variable, but not always.
+// If you want to run a method of the object, use the method  name. If it needs parameters (values supplied to the method), they go inside ( ) like this:
+
+// objectReference.methodName( parameter )
+// Always use ( ) with a method name, even if it needs no parameters.
+
+// + https://chortle.ccsu.edu/java5/notes/chap09c/ch09C_10.html#:~:text=The%20various%20things%20an%20object,a%20variable%2C%20but%20not%20always.
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
