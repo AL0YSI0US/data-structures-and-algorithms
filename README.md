@@ -50,7 +50,9 @@
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/arrayIndex.md">Array Index</a>
 <br>
-<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/variables.">Variables: Value vs. Reference</a>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/variables.md">Variables: Value vs. Reference</a>
+<br>
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/reduce.md">Reduce();</a>
 </div>
 
 ---
@@ -97,4 +99,3 @@ This license lets others distribute, remix, adapt, and build upon your work, eve
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAL0YSI0US%2Fdata-structures-and-algorithms&count_bg=%23FF0090&title_bg=%23555555&icon=counter-strike.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-does it work?
