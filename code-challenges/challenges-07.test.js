@@ -28,8 +28,14 @@ let starWarsPeople = [
 ];
 
 const sortStarWarsCharacters = (starWarsArr) => {
-  // Solution code here...
+  return starWarsArr.sort((a, b) => {
+    return b.height - a.height;
+  });
 };
+
+//                      + [   .sort();    ] +
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -37,9 +43,12 @@ CHALLENGE 2
 Write a function named removeThree that takes an index and an array. 
 The function should removes three items in the array starting with the value at the index.
 ------------------------------------------------------------------------------------------------ */
+// The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
 const removeThree = (idx, arr) => {
-  // Solution code here...
+  arr.splice(idx, 3);
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -48,9 +57,11 @@ CHALLENGE 3
 Write a function named joinArray that takes an array and joins all of the elements together
 in one string on a space.
 ------------------------------------------------------------------------------------------------ */
+// create a "joined" string [to return]
 
 const joinArray = (arr) => {
-  // Solution code here...
+  const str = arr.join(' ');
+  return str;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -70,7 +81,9 @@ For example, if the input is 'Welcome', the output will be:
 
 const howMuchPencil = (str) => {
   let result = [];
-  // Solution code here...
+  for (let i = 0; i <= str.length; i++) {
+    result.push(str.slice(i));
+  }
   return result;
 };
 
@@ -84,7 +97,7 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-  // Solution code here...
+  return arr.split('');
 };
 
 
@@ -133,7 +146,9 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  recipe.ingridients.forEach(item => {
+    result.push(item.slice(item.indexOf(' ', 3) + 1, item.length));
+  });
   return result;
 };
 
