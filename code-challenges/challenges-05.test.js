@@ -60,7 +60,9 @@ Write a function named addPurchases that, given an array of objects as input, us
 ------------------------------------------------------------------------------------------------ */
 
 const addPurchases = (arr) => {
-  // Solution code here...
+  return arr.reduce((total,purchasePrice) => {
+    return total + purchasePrice.purchasePrice;
+  },0);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -72,8 +74,17 @@ Note: You may not use the array's built-in length property.
 ------------------------------------------------------------------------------------------------ */
 
 const countNumberOfElements = (arr) => {
-  // Solution code here...
+  return arr.reduce((total, items) =>{
+    total = items++;
+    return total;
+  },0);
 };
+
+//  { A N O T H E R . V A R I A T I O N }
+// const countNumberOfElements = (arr) => {
+//   return arr.reduce(accumulator => accumulator + 1, 0);
+// };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -132,7 +143,11 @@ let starWarsData = [{
 }];
 
 const returnNames = (arr) => {
-  // Solution code here...
+  let newArr = [];
+  return arr.reduce((returnName,val) => {
+    newArr.push(returnName = val.name);
+    return newArr;
+  },[]);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -142,10 +157,17 @@ Write a function named reversedString that takes in a string and returns a strin
 
 Note: You must use reduce for this challenge. You may not use the built-in .reverse() string method.
 ------------------------------------------------------------------------------------------------ */
-
+// with accumulator terminology from class demo
 const reversedString = (str) => {
-  // Solution code here...
+  return str.split('').reduce((accumulator, current) => current + accumulator);
 };
+
+//  { A N O T H E R . V A R I A T I O N }
+// const reversedString = (str) => {
+//   return str.split('').reduce((newString,letter) => {
+//     return letter + newString;
+//   },'');
+// };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
