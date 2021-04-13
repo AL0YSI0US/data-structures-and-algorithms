@@ -35,9 +35,9 @@
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-05.test.js">Challenge[Five]</a> { p/s }
 <br>
-<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-06.test.js">Challenge[Six]</a> due 8 apr
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-06.test.js">Challenge[Six]</a>
 <br>
-<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-07.test.js">Challenge[Seven]</a> due 12 apr
+<a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-07.test.js">Challenge[Seven]</a>
 <br>
 <a href="https://github.com/AL0YSI0US/data-structures-and-algorithms/blob/main/code-challenges/challenges-08.test.js">Challenge[Eight]</a> due 15 apr
 <br>
@@ -71,6 +71,7 @@
 + { `Garfield` } - gave me a run down of how he was able to make sense of his logic which was helpful for filling in some gaps so I could attempt the stretch goal on Code Challenge 1. I knew `===`was needed somewhere, and remebered using`%` (modulus) before but based on many resources I could not figure out how to apply these bits to my code base. {I also pulled the test code out so I could experience all the delight of green checks everywhere in my terminal on my final tests}
 + { `Kassie Bradshaw` } - helped me keck off lab two by helping me understand how to write a one-liner! `Math.pow` didn't make a lick of sense until she broke it down for me!
 + { `Michael` } - Code challenge 4 problem One. Some real manual labor happening in that code block.
++ { `Shelby, Thomas, Daniel & Lorenzo` } Group colloaboration code challenge 6
 
 ### 🤔 R E F L E C T I O N S
 
