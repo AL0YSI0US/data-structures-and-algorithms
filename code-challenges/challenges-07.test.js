@@ -100,6 +100,8 @@ const wordsToCharList = (arr) => {
   return arr.split('');
 };
 
+// { Solved by Instructor Ryan }
+// const wordsToCharList = (arr) => arr.split('');
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -151,6 +153,16 @@ const listFoods = (recipe) => {
   });
   return result;
 };
+
+// { Solved by Instructor Ryan }
+// const listFoods = (recipe) => {
+//   let result = [];
+//   recipe.ingredients.forEach(ingredient => {
+//     let withoutAmounts = ingredient.slice(ingredient.indexOf(' ') +1);
+//     let withoutUnits = withoutAmounts.slice(withoutAmounts.indexOf(' ') +1);
+//   })
+//   result.push(withoutAmounts);
+// };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
