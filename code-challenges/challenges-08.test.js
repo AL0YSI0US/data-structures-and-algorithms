@@ -8,7 +8,9 @@ CHALLENGE 1 - Review
 
 Use the characters data below for all of the challenges except challenge 2 and 3.
 
-Write a function named sortByChildren that sorts the characters below by the number of children in each house (fewest to most). If a house has the same number of children, sort alphabetically by house name.
+Write a function named sortByChildren that sorts the characters below by the number of children 
+in each house (fewest to most). If a house has the same number of children, sort alphabetically 
+by house name.
 
 ------------------------------------------------------------------------------------------------ */
 let characters = [
@@ -57,24 +59,32 @@ let characters = [
 ];
 
 const sortByChildren = (charArray) => {
-  // Solution code here...
+  charArray.sort((a,b) => {
+    return a.children.length - b.children.length;
+  });
+  return charArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
-Write a function named containsW that takes in a string. This function should use a regular expression pattern to return true if the string contains the letter 'w' in lower case or false if it does not. 
+Write a function named containsW that takes in a string. This function should use a regular 
+expression pattern to return true if the string contains the letter 'w' in lower case or 
+false if it does not. 
 
 ------------------------------------------------------------------------------------------------ */
 
 const containsW = (str) => {
-  // Solution code here...
+  const littleDoubleYew = /w/;
+  return littleDoubleYew.test(str);
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
-Write a function named isNum that takes in a string or number of any length. This function should use a regular expression pattern to return true if the input contains a number, and false if the input does not contain a number.
+Write a function named isNum that takes in a string or number of any length. 
+This function should use a regular expression pattern to return true if the input contains a number, 
+and false if the input does not contain a number.
 
 For example:
 12345 returns true
@@ -82,20 +92,24 @@ For example:
 'h3llo world' returns true
 'hello world' returns false
 ------------------------------------------------------------------------------------------------ */
-
 const isNum = (input) => {
-  // Solution code here...
+  const gottaNumberInYa = /\d/;
+  return gottaNumberInYa.test(input);
 };
+// Most engines: "word character": ASCII letter, digit or underscore
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
-Write a function named containsWorld that takes in a string or number of any length. This function should use a regular expression pattern to return true if the input contains the word 'world' all in lower-case letters, and false if the input does not.
+Write a function named containsWorld that takes in a string or number of any length. 
+This function should use a regular expression pattern to return true if the input contains 
+the word 'world' all in lower-case letters, and false if the input does not.
 
 ------------------------------------------------------------------------------------------------ */
 
 const containsWorld = (input) => {
-  // Solution code here...
+  const lowerCasedWorld = /world/;
+  return lowerCasedWorld.test(input);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -107,7 +121,9 @@ Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
 
 const isCapitalized = (str) => {
-  // Solution code here...
+  const capitalizedWordMatch = /\b[A-Z][a-z]+/g;
+  const result = str.match(capitalizedWordMatch) || [];
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -117,7 +133,14 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  // Solution code here...
+  const results = [];
+  const cityStartsWithAtoJ = /^[A-J]/;
+  for (const city of arr) {
+    if (cityStartsWithAtoJ.test(city) === true) {
+      results.push(city);
+    }
+  }
+  return results;
 };
 
 /* ------------------------------------------------------------------------------------------------
