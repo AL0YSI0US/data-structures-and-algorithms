@@ -98,6 +98,17 @@ const isNum = (input) => {
 };
 // Most engines: "word character": ASCII letter, digit or underscore
 
+// from review solution A
+const isNum = (input) => /[0-9]/.test(input);
+
+// from review solution B
+const isNum = (input) => {
+  let regex = /\d/;
+  return regex.test(input);
+};
+
+// from review solution C
+const isNum = (input) => /\d/.test(input);
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
@@ -126,6 +137,25 @@ const isCapitalized = (str) => {
   return result;
 };
 
+// from review solution A
+const isCapitalized = (str) => [...str.matchAll(/\b[A-Z]\w*\b/g)].map(items => items[0]);
+// from review solution B
+const isCapitalized = (str) => {
+  let r = /[A-Z][a-zA-Z]*/g;
+  // return r.test(str);
+  let results = str.match(r);
+  return results || [];
+};
+
+// from review solution B
+const isCapitalized = str => {
+  // Solution code here...
+  let matchedWords = [];
+  if (str.match(/\b[A-Z][A-Za-z]+\b/g)) {
+    matchedWords = str.match(/\b[A-Z][A-Za-z]+\b/g);
+  }
+  return matchedWords
+};
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -143,6 +173,26 @@ const citiesAtoJ = (arr) => {
   return results;
 };
 
+// from review solution A
+const citiesAtoJ = (arr) => {
+  return arr.filter(x => (/^[A-J]/).test(x));
+
+};
+
+// from review solution B
+const citiesAtoJ = (arr) => arr.filter(item => /^[A-J]/g.test(item));
+
+// from review solution C
+const citiesAtoJ = (arr) => {
+  let array = [];
+  for (let i = 0; i < arr.length; i++) {
+    let regex = /^[A-J]/g;
+    if (regex.test(arr[i])) {
+      array.push(arr[i]);
+    }
+  }
+  return array;
+};
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
