@@ -11,7 +11,7 @@ using the 'reduce' method.
 E.g. [4,2,7,5,9,2] -> 9
 ------------------------------------------------------------------------------------------------ */
 const maxInArray = (arr) => {
-  // Solution code here...
+  return arr.reduce((a, b) => Math.max(a, b), 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -26,8 +26,8 @@ const courseInfo = { name: 'Code 301', duration: { dayTrack: '4 weeks', eveningT
   finalExam: true
 };
 
-const getCourseKeys = (obj) => {
-  // Solution code here...
+const getCourseKeys = (obj) => { 
+  return Object.keys(obj);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -37,9 +37,22 @@ Write a function named checkValues that takes in an object and a value and retur
 
 
 ------------------------------------------------------------------------------------------------ */
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values
+// Object.values(obj)
+// const object1 = {
+//  a: 'somestring',
+//  b: 42,
+//  c: false
+//};
+// console.log(Object.values(object1));
+// expected output: Array ["somestring", 42, false]
+// obj= The object whose enumerable own property values are to be returned.
+// return value = An array containing the given object's own enumerable property values.
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
 const checkValues = (obj, value) => {
-  // Solution code here...
+  return Object.values(obj).includes(value) ? true : false;
 };
 
 /* ------------------------------------------------------------------------------------------------
