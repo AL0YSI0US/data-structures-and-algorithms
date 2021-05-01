@@ -129,11 +129,7 @@ const characters = [
   },
 ];
 
-const getHouses = (arr) => {
-  let houses = [];
-  // Solution code here...
-  return houses;
-};
+const getHouses = (arr) => arr.map(character => character.house);
 
 /*------------------------------------------------------------------------------------------------
 CHALLENGE 6
