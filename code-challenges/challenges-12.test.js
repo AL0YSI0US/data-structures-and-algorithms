@@ -63,7 +63,8 @@ const hasNumber = (string) => {
 // https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 // [a-zA-Z] = https://stackoverflow.com/questions/2790813/regular-expression-a-za-z-or-a-za-z/2790818
 
-
+// Michelle's solve
+// return /[a-zA-Z]+\d+/.test(string);
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
@@ -81,8 +82,16 @@ Note: if you ever need to validate an email using a regex in practice, the Inter
 ------------------------------------------------------------------------------------------------ */
 
 const validateEmail = (email) => {
-  // Solution code here...
+  return /^\w+(\.\w+)?@\w+\.(net|com|org)$/.test(email);
 };
+
+// went over in class lecture
+
+// GARFIELD's solve
+// return /^(\((\d{3})\)[\s]?|(\d{3})[\s-]?)(\d{3})[\s-]?(\d{4})$/;
+
+// TOM's solve
+// return /^\d{3}? ?-?\d{3}-? ?\d{4}$|^[(]\d{3}[)] ?-?\d{3}-? ?\d{4}$/g
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -106,9 +115,9 @@ Return either true or false.
 ------------------------------------------------------------------------------------------------ */
 
 const validatePhoneNumber = (phoneNumber) => {
-  // Solution code here...
+ return /^((\(\d\d\d\))|(\d\d\d))[ -]?\d\d\d[ -]?\d\d\d\d$/.test(phoneNumber);
 };
-
+// went over in class lecture
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
