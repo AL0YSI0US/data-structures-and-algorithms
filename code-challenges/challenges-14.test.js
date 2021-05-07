@@ -11,8 +11,9 @@ Write a function named screenForNames that takes in an array of strings and uses
 ------------------------------------------------------------------------------------------------ */
 
 const screenForNames = (arr) => {
-  // Solution code here...
-}
+  let regex = /^(Mr\.|Mrs\.|Ms\.|Dr\.).\w*$/;
+  return arr.filter((value) => value.match(regex));
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -23,9 +24,22 @@ For example, ['apple', 'banana', 'MacGyver'] returns ['Apple', 'Banana', 'MacGyv
 ------------------------------------------------------------------------------------------------ */
 
 const toTitleCase = (arr) => {
-  // Solution code here...
+  return arr.map(word => word.charAt(0).toUpperCase() + word.slice(1));
 };
 
+// .toUpperCase
+// console.log(toTitleCase);
+// Parameters
+
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
+
+// index
+// An integer between 0 and str.length - 1. If the index cannot be converted to the integer or no index is provided, 
+// the default is 0, so the first character of str is returned.
+// Return value
+// A string representing the character (exactly one UTF-16 code unit) at the specified index. 
+// If index is out of range, charAt() returns an empty string.
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -97,8 +111,24 @@ let starWarsData = [{
   gender: 'n/a'
 }];
 
+
+//   mass: '77', 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+// The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+// console.log(elements.join('-'));
+
+
+// expected output: "Fire-Air-Water"
 let biggerThanLuke = (arr) => {
-  // Solution code here...
+  let potato = [];
+// arr method however is not a potato . . . just sayin. 
+  arr.forEach(person => {
+    if (parseInt(person.mass) > 77){
+      potato.push(person.name);
+    }
+  }); return potato.join(' - ');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -132,7 +162,7 @@ https://secure.com returns true because the URL is secure
 https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
-  // Solution code here...
+  return /^(https:\/\/)/.test(url);
 };
 
 /* ------------------------------------------------------------------------------------------------

@@ -29,6 +29,7 @@ const validatePin = (pin) => {
   return regex.test(pin);
 };
 
+// return /^\d{4}$/.test(pin); 
 
 // 4 DIGITS [Numbers] in length
 // EXCLUDE alphanumeric characters????
@@ -44,7 +45,7 @@ If the word is between 5 and 10 characters long, return true. Otherwise, return 
 ------------------------------------------------------------------------------------------------ */
 
 const validateWord = (word) => {
-  // Solution code here...
+  return /^[a-zA-Z]{5,10}$/.test(word);
 };
 
 /* ------------------------------------------------------------------------------------------------
