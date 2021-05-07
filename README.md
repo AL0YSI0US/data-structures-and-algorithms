@@ -86,6 +86,7 @@
 ### 🤔 R E F L E C T I O N S
 
 + It keeps me awake wonderin'...what is it that is manipulating the color behavoir of  the "`( (( ))`" parenthesis in VS code? Depending on where I place them, and how many (but specifically where) they change color almost as if they comprehend the data they are containing and have a specific set of rules they are abiding by. What sort of JS magik is at play here???
++ Developer Mozilla is the best resource for code challenges imo.
 
 ### ❤️ G R A T T I T U D E
 
